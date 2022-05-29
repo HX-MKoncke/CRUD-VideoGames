@@ -1,0 +1,35 @@
+.nav
+{
+  display: flex;
+  align-items: center;
+  height: 130px;
+}
+
+.logo
+{
+  display: flex;
+  transform: scale(20%);
+}
+
+.nav .ul .li 
+{
+  list-style-type: none;
+  display: flex;
+  padding: 300px;
+}
+
+.a
+{
+  padding: 20px 40px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  text-shadow: 0 0.5rem 1rem #000000;
+}
+
+.a:hover
+{
+  color: #5caec1;
+  transition: .3s;
+  transform: scale(1.2);
+}

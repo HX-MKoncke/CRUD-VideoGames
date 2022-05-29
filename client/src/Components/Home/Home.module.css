@@ -1,0 +1,22 @@
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 150px;
+  }
+
+  .navBar
+{
+  display: flex;
+  align-items: center;
+}
+
+  .cardArea
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* max-width: 1600px;  */
+}

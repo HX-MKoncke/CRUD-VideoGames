@@ -1,0 +1,46 @@
+.searchBox
+{
+  position: relative;
+}
+
+.searchBox:hover > .searchTxt
+{
+  width: 155px;
+  padding: 0 6px;
+}
+
+.searchBox:hover > .searchBtn
+{
+  background: rgba(153, 153, 153, 0.58);
+}
+
+.searchBtn
+{
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(232, 232, 232, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.searchTxt
+{
+  border: none;
+  background: scroll;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.7s;
+  line-height: 40px;
+  width: 0px;
+}
